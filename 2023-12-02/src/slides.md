@@ -13,10 +13,15 @@ growSize: 1.5
 ![](/d-logo-animated.svg){.w-30.mt--10.mb-5}
 
 <!--
-Herzlich willkommen zum GitHub-Einsteiger-Webinar! 
-Ich bin Dennis Ollhoff aka Nyxb, und ich freue mich besonders, euch heute die Grundlagen von GitHub vorstellen zu können. 
-Einige von euch kennen mich bereits als euren Klassenkameraden, während andere Teilnehmer möglicherweise aus verschiedenen Klassen hier sind. 
-Unser Ziel ist es, die grundlegenden Funktionen und Begriffe von GitHub zu erklären und anhand praktischer Beispiele zu veranschaulichen.
+Willkommen zum GitHub-Einsteiger-Webinar! 
+
+Ich bin Dennis Ollhoff, auch bekannt als Nyxb. 
+
+Es freut mich besonders, heute mit einer vielfältigen Gruppe, bestehend aus Teilnehmern sowohl aus meiner Klasse als auch aus anderen Klassen, die Grundlagen von GitHub zu erkunden. 
+
+Einige von euch kennen mich vielleicht schon als euren Klassenkameraden, und für andere bin ich eine neue Bekanntschaft. 
+
+Unser Ziel heute ist es, die Kernfunktionen und wichtigen Begriffe von GitHub zu erläutern und diese durch praktische Beispiele anschaulich zu machen."
 -->
 
 ---
@@ -36,10 +41,8 @@ layout: cover
 
 <!--
 Wir werden sehen, warum diese Plattform zu einem zentralen Bestandteil der modernen Softwareentwicklung geworden ist. 
+
 GitHub geht weit über eine einfache Codeverwaltung hinaus; es ist ein Ökosystem für Kollaboration, Innovation und Open-Source-Entwicklung.
-Wir tauchen gemeinsam in die Welt von GitHub ein. 
-Wir werden lernen, wie man GitHub effektiv nutzt, Projekte verwaltet und mit der globalen Entwicklergemeinschaft zusammenarbeitet. 
-Ich freue mich darauf, euch meine Erfahrungen und Tipps zu teilen.
 -->
 
 ---
@@ -77,26 +80,40 @@ Schöpfer von Kolibry und Wiz<br>
 
 </div>
 
+<!--
+Wir tauchen gemeinsam in die Welt von GitHub ein. 
+
+Wir werden lernen, wie man GitHub effektiv nutzt, Projekte verwaltet und mit der globalen Entwicklergemeinschaft zusammenarbeitet. 
+
+Ich freue mich darauf, mit euch meine Erfahrungen und Tipps zu teilen.
+-->
+
 ---
 layout: intro
 ---
 
 Was ist{.op50.text-2xl}
 
-<h2 important-text-5xl important-mt-0>Github<sup op50 v-click="2">?</sup></h2>
+<h2 important-text-5xl important-mt-0>Github<sup op50 v-click="1">?</sup></h2>
 <div absolute right-20 top-20>
    <div
-   v-click="2">
+   v-click="1">
    <img src="/octocat.svg" alt="" w-70 ma mb--10 />
 </div>
 </div>
 
-
 <!--
 Beginnen wir mit der Frage: Was ist GitHub? 
+
+*Klick*
+
 GitHub ist eine Plattform für Entwickler, um Code zu speichern und zusammenzuarbeiten. 
-Sie ist unverzichtbar für moderne Softwareentwicklung. Lasst uns einige grundlegende Konzepte betrachten.
-Wir beginnen mit den Grundlagen von Repositories bis zu Branches und Commits und erklären, wie diese Konzepte in der Praxis angewendet werden.
+
+Sie ist unverzichtbar für moderne Softwareentwicklung. 
+
+Lasst uns einige grundlegende Konzepte betrachten.
+
+Wir beginnen mit den Grundlagen von Repositories bis zu Branches und Commits und  ich erkläre, wie diese Konzepte in der Praxis angewendet werden.
 -->
 
 ---
@@ -116,8 +133,11 @@ Repositories{.op50.text-2xl}
 
 <!--
 Ein Repository, oft einfach als 'Repo' abgekürzt, kann mit einer Bibliothek verglichen werden. 
+
 Es ist der zentrale Ort, an dem alle Projektdateien, Dokumentationen und die Versionsgeschichte aufbewahrt werden, ähnlich wie Bücher in einer Bibliothek gespeichert sind. 
-Genau wie eine Bibliothek der Ausgangspunkt für das Sammeln und Teilen von Wissen ist, bildet ein Repository den Ausgangspunkt für jedes Projekt auf GitHub. 
+
+Genau wie eine Bibliothek der Ausgangspunkt für das Sammeln und Teilen von Wissen ist, bildet ein Repository den Ausgangspunkt für jedes Projekt auf GitHub.
+ 
 Hier kannst du deine Dateien sicher speichern und verwalten und in Zusammenarbeit mit anderen an deinem Projekt arbeiten, ähnlich wie in einer Bibliothek Wissen gemeinschaftlich genutzt wird und Veränderungen verfolgt werden können.
 -->
 
@@ -201,7 +221,7 @@ class: h-full
   <div absolute left-122 top-91>
   <div
     v-click="[3, 4]"
-    text-blue left-0 top-0 w-43 absolute text-2xl border="~ blue rounded-xl" px2 bg-blue:20
+    text-blue left-0 top-0 w-33 absolute text-2xl border="~ blue rounded-xl" px2 bg-blue:20
   >
     Fix Branch
   </div>
@@ -309,7 +329,6 @@ class: h-full
   </div>
 </div>
 
-
 <!--
 Zunächst haben wir das Repository – euer digitaler Arbeitsraum auf GitHub, wo all eure Dateien, der Code und die Dokumentation sicher aufbewahrt werden.
 
@@ -326,13 +345,14 @@ Sie ist das Aushängeschild eures Projekts und bietet jedem, der es besucht, ein
 
 5. Die LICENSE-Datei klärt auf, unter welchen Bedingungen euer Projekt verwendet werden darf – sehr wichtig für die rechtlichen Aspekte der Softwarenutzung.
 
+# Versionsgeschichte
+
 6. Die Versionsgeschichte dokumentiert alle Änderungen im Projekt und wird durch Commits festgehalten. Jeder Commit ist wie ein Meilenstein, der eine Änderung im Projektverlauf markiert.
 
 7. Und schließlich die Tags, mit denen ihr wichtige Punkte wie Veröffentlichungen oder Meilensteine in eurem Projekt kenntlich macht.
 
 Mit dieser Struktur stellt GitHub die Werkzeuge bereit, um euer Projekt effektiv zu verwalten und mit der Community zu teilen. Wir werden auch noch einen Blick darauf werfen, wie diese Komponenten in der Praxis eingesetzt werden, indem wir ein echtes Repository auf GitHub untersuchen.
 -->
-
 
 ---
 layout: center
@@ -343,6 +363,10 @@ growY: 50
 
 #### Der Branch {.op60}
 
+<!--
+Schauen wir uns an, wie ein effektiver Workflow in einem GitHub-Repository mit verschiedenen Branches aussieht.
+-->
+
 ---
 layout: center
 ---
@@ -350,8 +374,6 @@ layout: center
 ![](/workflow.png){.h-100.contrast-110}
 
 <!--
-Schauen wir uns an, wie ein effektiver Workflow in einem GitHub-Repository mit verschiedenen Branches aussieht.
-
 Zuerst sehen wir den MAIN-Branch, dargestellt in Lila. Dies ist der Hauptbranch, der den offiziellen Projektstand repräsentiert. Hier wird der Code gespeichert, der bereit für die Produktion ist – stabil und getestet.
 
 Der DEVELOP oder auch dev Branch, hier in Orange dargestellt, ist eine lebendige Entwicklungsumgebung. Es ist der Bereich, in dem neuer Code integriert wird – ein Ort für laufende Arbeit und Integration neuer Features, bevor sie letztendlich in den MAIN-Branch gelangen.
