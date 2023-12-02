@@ -1,0 +1,27 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.10.5",
+  "scripts": {
+    "build": "rm -rf dist && pnpm -r run build",
+    "dev": "esno scripts/picker.ts dev --open",
+    "lint": "eslint .",
+    "update": "esno scripts/redirects.ts"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.143",
+    "@kolibry/cli": "^0.0.10",
+    "@kolibry/theme-default": "^0.0.5",
+    "@nyxb/eslint-config": "^2.0.0",
+    "@types/node": "^20.9.1",
+    "@types/prompts": "^2.4.8",
+    "eslint": "^8.55.0",
+    "esno": "^4.0.0",
+    "execa": "^8.0.1",
+    "fast-glob": "^3.3.2",
+    "playwright-chromium": "^1.40.0",
+    "pnpm": "^8.10.5",
+    "prompts": "^2.4.2",
+    "typescript": "^5.2.2"
+  }
+}

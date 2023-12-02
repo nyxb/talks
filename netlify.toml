@@ -1,0 +1,15 @@
+
+[build.environment]
+  NODE_VERSION = "20"
+  PLAYWRIGHT_BROWSERS_PATH = "0"
+
+[build]
+  publish = "dist"
+  command = "pnpm run build"
+
+
+
+[[redirects]]
+  from = "/"
+  to = "https://nyxb.nexus/talks"
+  status = 302

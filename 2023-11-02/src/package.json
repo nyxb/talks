@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "kolibry",
+    "build": "kolibry build --base /2023/githubeinsteiger/ --out ../../dist/2023/githubeinsteiger",
+    "export": "kolibry export --per-slide --output ../2023-12-02-github-einsteiger-de.pdf"
+  }
+}
