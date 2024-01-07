@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "kolibry",
+    "build": "kolibry build --base /2024/joypixonboarding/ --out ../../dist/2024/joypixonboarding",
+    "export": "kolibry export --per-slide --output ../2024-01-07-joypix-onboarding-de.pdf"
+  }
+}
