@@ -34,16 +34,6 @@
   status = 200
 
 [[redirects]]
-  from = "/2024/joypixonboarding/pdf"
-  to = "https://github.com/nyxb/talks/blob/main/2024-01-07/2023-10-28-vue-fes-japan-en.pdf?raw=true"
-  status = 302
-
-[[redirects]]
-  from = "/2024-01-07/pdf"
-  to = "https://github.com/nyxb/talks/blob/main/2024-01-07/2023-10-28-vue-fes-japan-en.pdf?raw=true"
-  status = 302
-
-[[redirects]]
   from = "/2024/joypixonboarding/src"
   to = "https://github.com/nyxb/talks/tree/main/2024-01-07"
   status = 302
